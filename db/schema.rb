@@ -11,15 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151017092510) do
+ActiveRecord::Schema.define(version: 20151017094621) do
 
   create_table "place_data", force: true do |t|
     t.string   "place_name"
     t.string   "lat"
     t.string   "long"
-    t.string   "weight"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "crime_weight"
+    t.string   "health_weight"
+    t.string   "entetainment_weight"
   end
 
 end
