@@ -33,6 +33,7 @@ gem 'google-api-client', '~> 0.7.1'
 gem 'google_places'
 gem 'byebug'
 gem 'bigquery'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
